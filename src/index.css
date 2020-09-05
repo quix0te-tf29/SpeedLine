@@ -3,33 +3,113 @@
   color: #FFFFFF;
 }
 
-p{
-  color: #FFFFFF;
+html{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  overflow: hidden;
 }
 
-h1{
+.button{
+  color: #FFFFFF;
+  font-size:16pt;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: coral;
+  
+}
+
+.button1:hover{
+  background-color: indianred;
+  transition-duration: 0.4s;
+}
+
+body{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+  max-height: fit-content;
+}
+
+
+
+header {
   font-size: 48pt;
   color: #FFFFFF;
+  text-align: center;
 }
 
-textarea.logdisplay{
+div.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+  height: 80%;
+  overflow: hidden;
+}
+
+.active, .collapsible:hover {
+  background-color: coral;
+}
+
+.item{
+  display: flex
+}
+
+.display {
   background-color: #202324;
-  width: 80%;
-  height: 1000px;
+  width: 33%;
+  height: 80%;
+  margin: 2rem;
+  
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-color: coral;
+  border-style: solid;
+
+  padding: 10px;
   font-size: 10pt;
   color: #FFFFFF;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
-.center{
-  position: relative;
-  text-align: center;
-  align-content: center;
+
+.accordion {
+  background-color: #0a0c12;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  visibility: hidden;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  margin-left: 50%;
-  margin-right: 50%;
-  max-width: 80%;
-  padding: 2rem;
+.active, .accordion:hover {
+  background-color: coral;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #fff;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #0a0c12;
+  max-height: 0;
+  overflow: hidden;
 }

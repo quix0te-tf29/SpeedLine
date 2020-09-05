@@ -1,21 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>Please work ffs</title>
   <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
   <script defer src="render.js"></script>
 </head>
+<header>Log Parser V0.1.0</header>
 
 <body>
-  <h1 id='header' class="center" >Log Parser V0.1.0</h1>
   <p>Please Select a log to parse</p>
+  <button id="uploadfile" class="button button1">Upload</button>
 
-  <button id="uploadfile" class="button is-primary">Upload</button>
-  
-  <textarea id="logDisplay" class="logdisplay"></textarea>
+  <div class="container">
+    <div id="logDisplay" class="display">
 
+      <div id="list1">
+        <div id="cardTemplate">
+          <button class="accordion card">THIS IS A TEST BUTTON</button>
+          <div class="panel card">
+            <table>
+              <tr>
+                <th>Entry</th>
+                <th>Data</th>
+              </tr>
+              <tr>
+                <td id="key">key</td>
+                <td id="value">value</td>>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="reportDisplay" class="display">
+
+    </div>
+
+  </div>
 </body>
 
 </html>
