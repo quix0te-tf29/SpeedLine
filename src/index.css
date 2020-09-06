@@ -60,8 +60,8 @@ div.container{
 
 .display {
   background-color: #202324;
-  width: 33%;
-  height: 80%;
+  width: 40%;
+  height: 90%;
   margin: 2rem;
   
   border-top-left-radius: 25px;
@@ -69,8 +69,8 @@ div.container{
   border-color: coral;
   border-style: solid;
 
-  padding: 10px;
-  font-size: 10pt;
+  padding: 0px;
+  font-size: 14pt;
   color: #FFFFFF;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -86,7 +86,7 @@ div.container{
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 14pt;
   transition: 0.4s;
   visibility: hidden;
 }
@@ -108,8 +108,62 @@ div.container{
 }
 
 .panel {
-  padding: 0 18px;
+  padding: 18 18px;
   background-color: #202324;
   max-height: 0;
   overflow: hidden;
 }
+
+table, th, td {
+  border-style: solid;
+  border-collapse: collapse;
+  border-color: coral;
+  border-width:  1px;
+}
+
+
+/* Buttons */
+::-webkit-scrollbar-button:single-button {
+  background-color: #0a0c12;
+  display: block;
+  border-style: solid;
+  height: 13px;
+  width: 16px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0a0c12; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: coral; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: indianred; 
+}
+/* Up */
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+  border-width: 0 8px 8px 8px;
+  border-color: transparent transparent coral transparent;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+  border-color: transparent transparent coral transparent;
+}
+/* Down */
+::-webkit-scrollbar-button:single-button:vertical:increment {
+  border-width: 8px 8px 0 8px;
+  border-color: coral transparent transparent transparent;
+}
+
+::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+  border-color: coral transparent transparent transparent;
