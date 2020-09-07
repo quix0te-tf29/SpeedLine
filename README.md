@@ -9,6 +9,7 @@
      |_|                                            
 
 
+
 Speedline is an event log analysis tool for windows and sysmon logs.
 
 The aim is to provide a simple graphical interface to view, parse, annotate, format, and export reports on log files. It's supposed to speed up an streamline the timeline analysis workflow (hence the name, SpeedLine) and make it easier for analysis to perform these tasks without having to tab between multiple windows to copy/paste text and screenshots into a report. Working with a tool like this also ensures you always have the correct events at the correct timestamps, and that your notes are always on point.
