@@ -7,12 +7,12 @@ The aim is to provide a simple graphical interface to view, parse, annotate, for
 
 This software is still in a very early build and does not yet have all the features implemented:
 
-Ingest logs ✓
-Display ingested logs ✓
-Filter displayed logs - in progress
-Select logs for report - in progress
-Annotate logs - in progress
-Export logs to a table format - in progress
+*Ingest logs ✓
+*Display ingested logs ✓
+*Filter displayed logs - in progress
+*Select logs for report - in progress
+*Annotate logs - in progress
+*Export logs to a table format - in progress
 
 bonus goals:
 
