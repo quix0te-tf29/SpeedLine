@@ -17,6 +17,10 @@ html{
   padding: 15px;
   border-radius: 10px;
   background-color: coral;
+  height: auto;
+  max-width: 150px;
+  justify-content: center;
+  vertical-align: middle;
   
 }
 
@@ -34,7 +38,6 @@ body{
 }
 
 
-
 header {
   font-size: 48pt;
   color: #FFFFFF;
@@ -48,6 +51,12 @@ div.container{
   width: auto;
   height: 80%;
   overflow: hidden;
+  align-items: center;
+}
+
+#buttonSpacer{
+  display: flex;
+  flex-direction: column;
 }
 
 .active, .collapsible:hover {

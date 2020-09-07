@@ -47,6 +47,7 @@
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
     "formidable": "^1.2.2",
+    "jquery": "^3.5.1",
     "json-to-table": "^4.2.0"
   },
   "devDependencies": {

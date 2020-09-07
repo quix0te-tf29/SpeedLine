@@ -109,3 +109,11 @@ function convertWindowsDates(windows_timestamp) {
 
     return new Date(windows_timestamp_ms + Date.UTC(1601, 0, 1))
 }
+
+function addLogToReport(log){
+
+}
+
+function removeLogFromReport(log){
+    
+}
