@@ -16,5 +16,5 @@ This software is still in a very early build and does not yet have all the featu
 
 bonus goals:
 
-display graphs showing relationships between different PID's and log entries
-support for formats other than .json such as .evtx .xml and plaintext
+* display graphs showing relationships between different PID's and log entries
+* support for formats other than .json such as .evtx .xml and plaintext
